@@ -1,0 +1,29 @@
+body {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ba276707-fe1d-417c-aa5c-af799ca32d89/dftcobr-6f5ed82c-fceb-4b44-8aa1-098fa55fc06a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JhMjc2NzA3LWZlMWQtNDE3Yy1hYTVjLWFmNzk5Y2EzMmQ4OVwvZGZ0Y29ici02ZjVlZDgyYy1mY2ViLTRiNDQtOGFhMS0wOThmYTU1ZmMwNmEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.qxDg1L-iiDmC4hHUNNL8lsAItAc5_BHeSqTu6-THppo");
+    background-size: 1400px 800px;
+    background-position: left top;
+    background-attachment: fixed;
+
+    h1 {
+      font-size: 50px; 
+      font-family: "Times New Roman", serif;
+      color: rgb(216, 38, 38); 
+    }
+    
+    h2 {
+      font-size: 22px;
+      font-family: "Monaco", monospace;  
+      color: rgb(58, 46, 46); 
+    }
+    
+    footer {
+      font-size: 22px; 
+      color: black; 
+    }
+    
+  }
+.div1 {
+  iframe {
+    float: left;
+    padding: 15px;
+  }}

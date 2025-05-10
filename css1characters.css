@@ -1,0 +1,101 @@
+body {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ba276707-fe1d-417c-aa5c-af799ca32d89/dfrm3sz-efd3047d-c6ae-4a97-8c2f-0433733c0daa.jpg/v1/fill/w_1177,h_679,q_70,strp/bnha_background__ua_evening_sky_by_backgroundsacademia_dfrm3sz-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzM4IiwicGF0aCI6IlwvZlwvYmEyNzY3MDctZmUxZC00MTdjLWFhNWMtYWY3OTljYTMyZDg5XC9kZnJtM3N6LWVmZDMwNDdkLWM2YWUtNGE5Ny04YzJmLTA0MzM3MzNjMGRhYS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.88lZWA_l9tAniV9wAYKppSfGtQOekt6qc47RataXbxw");
+    background-size: 1400px 800px;
+    background-position: left top;
+    background-attachment: fixed;
+
+    h1 {
+      font-size: 50px; 
+      font-family: "Times New Roman", serif;
+      color: rgb(216, 38, 38); 
+    }
+    
+    h2 {
+      font-size: 22px;
+      font-family: "Monaco", monospace;  
+      color: rgb(58, 46, 46); 
+    }
+    
+    footer {
+      font-size: 22px; 
+      color: black; 
+    }
+}
+.column {
+    flex: 1 1 50%;  /* 100% dividido entre 2 */
+    max-width: 50%;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .column img {
+    height: auto;
+    display: block;
+    border-radius: 8px;
+  }
+  
+  .column h2 {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  
+  .column h3 {
+    color: #555;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .column {
+      flex: 1 1 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .column {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+  
+  .galeria {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+  }
+  
+  .galeria a {
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .item {
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  
+  .item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  .item p {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+  border-radius: 10px;
+  }

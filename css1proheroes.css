@@ -1,0 +1,104 @@
+body {
+  background-image: url("Esuha_City.jpg");
+  background-size: 1400px 800px;
+  background-position: left top;
+  background-attachment: fixed;
+
+  h1 {
+    font-size: 50px; 
+    font-family: "Times New Roman", serif;
+    color: rgb(216, 38, 38); 
+  }
+  
+  h2 {
+    font-size: 22px;
+    font-family: "Monaco", monospace;  
+    color: rgb(29, 29, 29); 
+  }
+  
+  footer {
+    font-size: 22px; 
+    color: black; 
+  }
+}
+
+.column {
+    flex: 1 1 25%;  /* 100% dividido entre 4 */
+    max-width: 25%;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .column img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 8px;
+  }
+  
+  .column h2 {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  
+  .column h3 {
+    color: #181818;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .column {
+      flex: 1 1 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .column {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+  
+  .galeria {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+  }
+  
+  .galeria a {
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .item {
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  
+  .item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  .item p {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+  border-radius: 10px;
+  }
